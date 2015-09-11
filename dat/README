@@ -1,0 +1,10 @@
+This directory contains a pre-processed version of the lastFM-1K dataset.
+The ratings data is split into train, validation, and test. 
+
+The data files are distributed in compressed format. To use with the code
+in this repository the data files must be uncompressed (e.g., for train $
+gunzip train.tsv.gz). 
+
+The original dataset from which this is derived is available from:
+
+http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.html
